@@ -117,7 +117,7 @@ header .sidebar-top a:nth-child(1) span {
     color: #3cb878;
 }
 
-.slider-item {
+.slider-item img {
     max-width: 100%;
     width: 100%;
 }
@@ -408,3 +408,148 @@ footer {
 }
 
 
+/* Star CSS Mobile */
+
+@media only screen and (max-width:1200px) {
+    /* Your code CSS */
+}
+
+@media only screen and (max-width:996px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 575px) {
+    .menu {
+        display: none;
+    }
+
+    header .logo {
+        width: 75%;
+    }
+
+    header .logo a {
+        display: block;
+        text-indent: 15px;
+    }
+
+    #slider, .slider-item {
+        height: auto;
+    }
+
+    .slider-item img {
+        max-width: 67%;
+    }
+    .slider-item h2 {
+        top: 55px;
+        left:10px;
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
+    #best-seller {
+        margin-top: 20px;
+    }
+
+    ul.product-list li.introduce {
+        width: 100%;
+        align-items: center;
+    }
+
+    ul.product-list li p {
+    max-width: 80%;
+    text-align: center;
+    }
+
+    ul.product-list li {
+        width: 50%;
+    }
+
+    ul.product-list li img {
+        max-width: 98%;
+    }
+
+    ul.product-list {
+        justify-content: flex-end;
+    }
+    ul.product-list li {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    ul.product-list div.buy {
+        right: 5px;
+    }
+
+    /*shipping*/
+
+    #shipping {
+        padding: 20px 0px;
+    }
+
+    #shipping ul {
+        flex-wrap: wrap;   
+    }
+
+    #shipping ul li {
+        width: 50%;
+        min-height: 100px;
+    }
+
+    #shipping ul li:nth-child(3) img {
+        margin-bottom: 15px;
+    }
+
+    #promotion ul {
+        flex-direction: column;
+    }
+
+    #promotion ul li {
+        width: 100%;
+    }
+
+    #brands {
+        flex-direction: column;
+    }
+
+    .discount, .brands {
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #brands .discount form button {
+        min-width: 300px;
+        margin-top: 10px;
+    }
+
+    .brands ul {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        flex-direction:column;
+    }
+
+    footer div {
+        width: 100% !important;
+    }
+
+    .f-left {
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+    }
+
+    .f-right {
+        margin-top: 10px;
+        padding-bottom: 20px; 
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+}
